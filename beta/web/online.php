@@ -7,7 +7,7 @@ $OJ_CACHE_SHARE=false;
 	require_once('./include/setlang.php');
 	require_once('./include/online.php');
 	$on = new online();
-	$view_title= "Welcome To Online Judge";
+	$view_title= "重庆市第十八中学信息学竞赛在线评测系统";
 	require_once('./include/iplocation.php');
 	$users = $on->getAll();
 	$ip = new IpLocation();

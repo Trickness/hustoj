@@ -4,7 +4,7 @@
 	require_once('./include/db_info.inc.php');
 	require_once('./include/cache_start.php');
 	require_once('./include/setlang.php');
-    $view_title= "Problem Set";
+    $view_title= "设置问题";
 $first=1000;
   //if($OJ_SAE) $first=1;
 $sql="SELECT max(`problem_id`) as upid FROM `problem`";
