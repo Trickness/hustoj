@@ -1,5 +1,5 @@
 <div id=head>
-<h2><img id=logo src="<?php echo "template/".$OJ_TEMPLATE?>/image/logo.png"><span class="red">�����е�ʮ����ѧ��Ϣѧ����С��</span></h2>
+<h2><img id=logo src="<?php echo "template/".$OJ_TEMPLATE?>/image/logo.png"><span class="red">重庆市第十八中学信息学竞赛小组</span></h2>
 </div><!--end head-->
 <div id=subhead>
 	  <div id=menu>

@@ -47,7 +47,7 @@
 <body>
 <div id="wrapper">
 <div id=head>
-<h2><img id=logo src=../image/logo.png><font color="red">�����е�ʮ����ѧ��Ϣѧ����С�� ��̳</font></h2>
+<h2><img id=logo src=../image/logo.png><font color="red">重庆市第十八中学信息学竞赛小组 论坛̳</font></h2>
 </div><!--end head-->
 <div id=subhead>
 <div id=menu >
