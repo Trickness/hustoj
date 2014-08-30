@@ -50,6 +50,6 @@
 </div><!--end subhead-->
 <div id=broadcast>
 <!-- <marquee id=broadcast scrollamount=1 direction=up scrolldelay=250 onMouseOver='this.stop()' onMouseOut='this.start()';> -->
-  <?php echo <p>$view_marquee_msg?</p>>
+  <?php echo $view_marquee_msg?>
 <!-- </marquee> -->
 </div>
