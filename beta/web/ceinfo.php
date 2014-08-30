@@ -4,11 +4,11 @@
 	require_once('./include/cache_start.php');
     require_once('./include/db_info.inc.php');
 	require_once('./include/setlang.php');
-	$view_title= "Welcome To Online Judge";
+	$view_title= "重庆市第十八中学在线评测系统";
 	
 require_once("./include/const.inc.php");
 if (!isset($_GET['sid'])){
-	$view_errors= "No such code!\n";
+	$view_errors= "没有这个代码!\n";
 	require("template/".$OJ_TEMPLATE."/error.php");
 	exit(0);
 	
@@ -46,7 +46,7 @@ if ($ok==true){
 	mysql_free_result($result);
 }else{
 	mysql_free_result($result);
-	$view_errors= "I am sorry, You could not view this message!";
+	$view_errors= "抱歉，您无法查看本消息!";
 	require("template/".$OJ_TEMPLATE."/error.php");
 	exit(0);
 	
