@@ -4,6 +4,6 @@
 			$OJ_FAQ_LINK="./faqs.$OJ_LANG.php";
 		}
 	}else{
-		require_once("./lang/en.php");
+		require_once("./lang/cn.php");
 	}
 	?>
