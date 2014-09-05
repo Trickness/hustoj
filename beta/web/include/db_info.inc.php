@@ -6,8 +6,8 @@ static 	$DB_USER="root";
 static 	$DB_PASS="73864526#";
 	// connect db 
 static 	$OJ_NAME="HUSTOJ";
-static 	$OJ_HOME="./";
-static 	$OJ_ADMIN="root@localhost";
+static 	$OJ_HOME="localhost/About.php";
+static 	$OJ_ADMIN="SternWZhang@outlook.com";
 static 	$OJ_DATA="/home/judge/data";
 static 	$OJ_BBS="discuss";//"bbs" for phpBB3 bridge or "discuss" for mini-forum
 static  $OJ_ONLINE=false;

@@ -9,26 +9,26 @@ $first=1000;
   //if($OJ_SAE) $first=1;
 $sql="SELECT max(`problem_id`) as upid FROM `problem`";
 $page_cnt=100;
-$result=mysql_query($sql);
+$result=mysql_query($sql);		 // 在数据库中查找现有问题的总数
 echo mysql_error();
 $row=mysql_fetch_object($result);
-$cnt=intval($row->upid)-$first;
+$cnt=intval($row->upid)-$first;  // 转换成整数
 $cnt=$cnt/$page_cnt;
 
   //remember page
   $page="1";
-if (isset($_GET['page'])){
+if (isset($_GET['page'])){						//	如果设定了指定页码
     $page=intval($_GET['page']);
     if(isset($_SESSION['user_id'])){
          $sql="update users set volume=$page where user_id='".$_SESSION['user_id']."'";
          mysql_query($sql);
     }
-}else{
+}else{											//	没有的话
     if(isset($_SESSION['user_id'])){
-            $sql="select volume from users where user_id='".$_SESSION['user_id']."'";
+            $sql="select volume from users where user_id='".$_SESSION['user_id']."'";		// 获得用户的Volume(卷？)
             $result=@mysql_query($sql);
             $row=mysql_fetch_array($result);
-            $page=intval($row[0]);
+            $page=intval($row[0]);				//	将Volume的值转换成整数，保存在变量page中
     }
     if(!is_numeric($page))
         $page='1';

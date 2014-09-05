@@ -1,15 +1,6 @@
 
 <center>
 	<p>
-	<?php if(file_exists("setlang.php")){?>
-		<a href=setlang.php?lang=ko>한국어</a>&nbsp;
-		<a href=setlang.php?lang=cn>中文</a>&nbsp;
-		<a href=setlang.php?lang=fa>فارسی</a>&nbsp;
-		<a href=setlang.php?lang=en>English</a>&nbsp;
-		<a href=setlang.php?lang=th>ไทย</a>	<br>
-	<?php }?>
-	
-	
 		Anything about the Problems, Please Contact Admin:<a href="mailto:<?php echo $OJ_ADMIN?>">admin</a>
 		
 		<script type="text/javascript" charset="utf-8">
@@ -34,8 +25,8 @@
 		})()
 	</script>
 		<br>
-		All Copyright Reserved 2010-2011 <a href='<?php echo $OJ_HOME?>'><?php echo $OJ_NAME?></a> TEAM<br>
-		<a href=gpl-2.0.txt><span class=green>GPL2.0</span></a> 2003-2012 <a href='http://code.google.com/p/hustoj/'>HUSTOJ Project</a> TEAM<br>
+		All Copyleft Reserved 2013-2014 <a href='<?php echo $OJ_HOME?>'>重庆市第十八中学自由软件开发与维护小组</a><br>
+		<a href=gpl-2.0.txt><span class=green>GPL2.0</span></a> 2003-2012 <a href='https://github.com/zhblue/hustoj'>HUSTOJ Project</a> TEAM<br>
 		
      <?php if ($OJ_SAE) {
                    echo "<a href=http://sae.sina.com.cn><img bolder=0 src=http://static.sae.sina.com.cn/image/poweredby/poweredby.png></a>";
