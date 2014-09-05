@@ -15,7 +15,7 @@
 </center>
 <hr>
 <p><font color=green>Q</font>:这个在线裁判系统使用什么样的编译器和编译选项?<br>
-  <font color=red>A</font>:系统运行于<a href="http://www.debian.org/">Debian</a>/<a href="http://www.ubuntu.com">Ubuntu</a> Linux. 使用<a href="http://gcc.gnu.org/">GNU GCC/G++</a> 作为C/C++编译器, <a href="http://www.freepascal.org">Free Pascal</a> 作为pascal 编译器 ，用 <a href="http://www.oracle.com/technetwork/java/index.html">sun-java-jdk1.6</a> 编译 Java. 对应的编译选项如下:<br>
+  <font color=red>A</font>:系统运行于<a href="http://www.debian.org/">Debian</a> <a href="http://baike.baidu.com/view/2560767.htm">GNU/Linux. 使用<a href="http://gcc.gnu.org/">GNU GCC/G++</a> 作为C/C++编译器, <a href="http://www.freepascal.org">Free Pascal</a> 作为pascal 编译器 ，用 <a href="http://www.oracle.com/technetwork/java/index.html">sun-java-jdk1.6</a> 编译 Java. 对应的编译选项如下:<br>
 </p>
 <table border="1">
   <tr>
@@ -39,7 +39,7 @@
   </tr>
 </table>
 <p>  编译器版本为（系统可能升级编译器版本，这里直供参考）:<br>
-  <font color=blue>gcc (Ubuntu/Linaro 4.4.4-14ubuntu5) 4.4.5</font><br>
+  <font color=blue>gcc (Debian/Stable 4.7.2-5) 4.7.2-5</font><br>
   <font color=blue>glibc 2.3.6</font><br>
 <font color=blue>Free Pascal Compiler version 2.4.0-2 [2010/03/06] for i386<br>
 java version "1.6.0_22"<br>
@@ -107,7 +107,7 @@ public class Main{
 <ul>
   <li><font color=blue>main</font> 函数必须返回<font color=blue>int</font>, <font color=blue>void main</font> 的函数声明会报编译错误。<br> 
   <li><font color=green>i</font> 在循环外失去定义 "<font color=blue>for</font>(<font color=blue>int</font> <font color=green>i</font>=0...){...}"<br>
-  <li><font color=green>itoa</font> 不是ansi标准函数.<br>
+  <li><font color=green>itoa</font> 不是ANSI标准函数.<br>
   <li><font color=green>__int64</font> 不是ANSI标准定义，只能在VC使用, 但是可以使用<font color=blue>long long</font>声明64位整数。<br>如果用了__int64,试试提交前加一句#define __int64 long long
 </ul>
 <hr>
